@@ -1,0 +1,102 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  color: rgb(97, 96, 96);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 20px 100px 0 150px;
+}
+
+.left-side {
+  margin-left: 50px;
+}
+
+.right-side {
+  display: flex;
+  gap: 30px;
+  margin-right: 70px;
+}
+
+.name-section {
+  display: flex;
+  color: rgb(31, 41, 55);
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.view-project-button {
+  background-color: rgb(31, 41, 55);
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  font-size: 12px;
+  border-radius: 20px;
+  transition: background-color 0.15s, color 0.15s, border-width 0.15s;
+  cursor: pointer;
+}
+
+.view-project-button:active {
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 1px;
+}
+
+.get-in-touch-button {
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 2px;
+  padding: 10px 14px;
+  border-radius: 20px;
+  transition: background-color 0.15s, color 0.15s, border 0.15s;
+  cursor: pointer;
+}
+
+.get-in-touch-button:active {
+  background-color: rgb(31, 41, 55);
+  color: white;
+  border: none;
+}
+
+.get-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.github-link, .linkedin-link, .gmail-link {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+}
