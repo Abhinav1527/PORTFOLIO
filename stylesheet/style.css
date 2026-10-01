@@ -40,7 +40,7 @@ body {
 
 .name {
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .view-project-button {
@@ -54,7 +54,7 @@ body {
   cursor: pointer;
 }
 
-.view-project-button:active {
+.view-project-button:hover {
   background-color: white;
   color: black;
   border: solid;
@@ -72,7 +72,7 @@ body {
   cursor: pointer;
 }
 
-.get-in-touch-button:active {
+.get-in-touch-button:hover {
   background-color: rgb(31, 41, 55);
   color: white;
   border: none;
